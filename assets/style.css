@@ -1,0 +1,107 @@
+    body {
+      margin: 0;
+      font-family: 'Nexus', sans-serif;
+      background-color: #000;
+      text-align: center;
+      color: #fff;
+    }
+
+   nav {
+      background-color: #0d0d0d;
+      padding: 20px 10px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 80px; 
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      z-index: 1000;
+    }
+    
+    .navbar-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    
+    .logo img {
+      width: 30px; 
+      height: 30px;
+      margin-bottom: 20px;
+    }
+    
+    .nav-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .nav-links a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 14px; 
+      font-weight: 500;
+      display: flex;
+      align-items: center; 
+      justify-content: center; 
+      transition: color 0.3s ease;
+    }
+    
+    .nav-links .material-icons {
+      font-size: 18px; 
+      margin-right: 5px; 
+    }
+    
+    .nav-links a:hover {
+      color: #8e4de3;
+    }
+    
+    .nav-links li {
+      display: block; 
+    }
+
+    h1 {
+      font-size: 48px;
+      font-weight: bold;
+    }
+
+    .color1 {
+      color: #8e4de3; 
+    }
+
+    .color2 {
+      color: #ffffff;
+    }
+
+    .wrapper {
+      margin-top: 50px;
+    }
+    
+    .button {
+      padding: 20px 20px;
+      border-radius: 50px;
+      color: #fff;
+      background-color: #000;
+      border: 2px solid #8e4de3;
+      margin: 5px;
+      transition: 0.2s ease-in-out;
+    }
+    
+    .button:hover {
+      padding: 20px 20px;
+      border-radius: 50px;
+      color: #000;
+      background-color: #8e4de3;
+      border: 2px solid #8e4de3;
+    }
+    
+    .container {
+      margin: 0 auto;
+    }
