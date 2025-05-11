@@ -164,8 +164,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100%; 
-            width: 100%;
+            padding-top: 75px;
             position: relative;
      }
 
@@ -175,6 +174,7 @@
             position: relative;
             display: flex;
             justify-content: center;
+            border-radius: 15px;
             align-items: center;
             border: none;
             background-color: #fff;
