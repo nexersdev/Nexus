@@ -105,3 +105,55 @@
     .container {
       margin: 0 auto;
     }
+
+    .search-bar {
+      padding: 10px;
+      text-align: center;
+    }
+
+    .search-bar input {
+      padding: 10px;
+      width: 50%;
+      font-size: 16px;
+      background-color: #000;
+      border: 2px solid #8e4de3;
+      border-radius: 50px;
+      color: #fff;
+    }
+
+    .image-gallery {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .image-item {
+      position: relative;
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+      border-radius: 10px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .image-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .image-item:hover img {
+      transform: scale(1.2);
+    }
+
+    .image-item:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+
+    #search-input {
+      margin-top: 10px;
+    }
