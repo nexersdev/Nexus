@@ -85,6 +85,7 @@
     }
     
     .button {
+      cursor: pointer;
       padding: 20px 20px;
       border-radius: 50px;
       color: #fff;
