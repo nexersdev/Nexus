@@ -31,3 +31,8 @@
                 iframe.msRequestFullscreen();
             }
         }
+
+        function refreshIframe() {
+              const iframe = document.getElementById('gameframe');
+              iframe.src = iframe.src;
+            }
